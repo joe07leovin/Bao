@@ -21,6 +21,7 @@ This repository implements the Irish Audit Marketplace. The user requirements sp
 ## Story delivery and technical design
 
 - Explain architecture as the project develops. For each story, describe the problem, the chosen design, alternatives, failure behaviour and cloud implications in plain language, with a small example or relevant diagram.
+- The user is starting certification study with no existing certifications. Teach cloud and architecture fundamentals before advanced material. Map project lessons to AWS, Azure and TOGAF study objectives; distinguish project evidence from full exam preparation. Do not assume prior cloud knowledge or set exam dates without agreement.
 - Include cloud architecture in the learning and delivery plan: networking, compute, PostgreSQL, identity, encryption and keys, messaging, observability, backups, deployment and cost controls. Teach concepts before introducing provider-specific infrastructure.
 - Use repository-configured author identity for future commits. Do not add assistant branding, generated-by notices or assistant co-author attribution to project artifacts.
 - Track stories, milestones, dependencies and delivery status in GitHub Issues and Projects. The user chose GitHub over Linear. Keep versioned technical designs and diagram sources in the repository and link them from their stories.
