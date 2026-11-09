@@ -51,3 +51,11 @@ Tie tests to acceptance criteria and invariants. Describe compatibility, migrati
 ## Dependencies and decisions
 
 Link blocking stories and architecture decisions. Resolve material questions before coding. Keep the design aligned with the implemented result.
+
+## Architecture walkthrough
+
+Explain the problem in plain language, how the chosen design works, the alternatives and why they were rejected. Walk through one successful request and one failure. Identify what the learner should understand before implementing this story.
+
+## Cloud implications
+
+Describe the relevant compute, network boundaries, workload identity, database, events, encryption keys, secrets, logs, backups and deployment. Include cost drivers and recovery behaviour. Mark irrelevant areas explicitly. Link any provider selection decision; do not assume AWS or Azure has been selected.

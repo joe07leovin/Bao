@@ -20,6 +20,9 @@ This repository implements the Irish Audit Marketplace. The user requirements sp
 
 ## Story delivery and technical design
 
+- Explain architecture as the project develops. For each story, describe the problem, the chosen design, alternatives, failure behaviour and cloud implications in plain language, with a small example or relevant diagram.
+- Include cloud architecture in the learning and delivery plan: networking, compute, PostgreSQL, identity, encryption and keys, messaging, observability, backups, deployment and cost controls. Teach concepts before introducing provider-specific infrastructure.
+- Use repository-configured author identity for future commits. Do not add assistant branding, generated-by notices or assistant co-author attribution to project artifacts.
 - Track stories, milestones, dependencies and delivery status in GitHub Issues and Projects. The user chose GitHub over Linear. Keep versioned technical designs and diagram sources in the repository and link them from their stories.
 - Each story must identify its user outcome, relevant URS requirement IDs, acceptance criteria, dependencies and milestone.
 - Before implementation, prepare and review a story technical design covering the owning context, aggregate invariants and state transitions, command/query contracts, database changes, events and their versioning, transaction boundaries, concurrency, idempotency, failures and recovery.

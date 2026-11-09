@@ -15,6 +15,8 @@ Seven GitHub milestones and eight initial design issues have been created. The s
 
 ## Engineering requirements
 
+Follow the [architecture learning guide](docs/architecture-learning.md) to study the design and cloud infrastructure as each story is implemented.
+
 Go, PostgreSQL, domain driven design, CQRS, SOLID and reliable event delivery. Business policy values must be configurable and versioned where needed. Encryption is required in transit and at rest, with controlled decryption and managed keys.
 
 Service boundaries, cloud provider, payment provider and financial consistency boundaries require explicit design decisions. CQRS does not imply event sourcing or independently deployed read databases.
