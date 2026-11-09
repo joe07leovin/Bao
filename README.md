@@ -4,14 +4,14 @@ An Irish marketplace connecting businesses with verified audit and accounting fi
 
 ## Project tracking
 
-- Stories and technical work: GitHub Issues.
-- Delivery stages: GitHub Milestones.
+- Stories and technical work: [GitHub Issues](https://github.com/joe07leovin/Bao/issues).
+- Delivery stages: [GitHub Milestones](https://github.com/joe07leovin/Bao/milestones).
 - Progress board: GitHub Projects when configured.
 - Technical designs and editable diagrams: versioned in this repository and linked from each story.
 
 Start with the [delivery plan](docs/planning/milestones.md). Create work using the story issue template. Use the [technical design template](docs/design/story-template.md) before implementation.
 
-The GitHub board, remote issues and milestones are separate resources; adding these files does not create them.
+Seven GitHub milestones and eight initial design issues have been created. The separate project board is not configured because the current Git credential does not include Projects permission.
 
 ## Engineering requirements
 

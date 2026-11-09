@@ -1,6 +1,6 @@
 # BAO delivery plan
 
-This is the initial milestone plan. Dates and estimates are uncommitted. Items below are planned work, not completed designs or existing GitHub milestones.
+This is the initial milestone plan. Dates and estimates are uncommitted. Matching [GitHub milestones](https://github.com/joe07leovin/Bao/milestones) and [initial design issues](https://github.com/joe07leovin/Bao/issues) exist. The work and designs remain pending.
 
 | Milestone | Exit condition | Initial design work |
 | --- | --- | --- |
