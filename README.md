@@ -19,4 +19,4 @@ Go, PostgreSQL, domain driven design, CQRS, SOLID and reliable event delivery. B
 
 Service boundaries, cloud provider, payment provider and financial consistency boundaries require explicit design decisions. CQRS does not imply event sourcing or independently deployed read databases.
 
-See [AGENTS.md](AGENTS.md) for the detailed engineering and delivery requirements. No application implementation has been added yet.
+The initial Go service provides HTTPS liveness and PostgreSQL readiness checks, validated environment configuration and graceful shutdown. See [development instructions](docs/development.md), the [foundation design](docs/design/foundation.md) and [AGENTS.md](AGENTS.md). Business endpoints and production infrastructure remain pending.
