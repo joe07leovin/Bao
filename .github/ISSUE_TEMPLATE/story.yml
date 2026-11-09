@@ -1,0 +1,50 @@
+name: Story or technical design
+description: Track an outcome with acceptance criteria and a linked technical design.
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome and scope
+      description: Who needs this, why, and what is included?
+    validations:
+      required: true
+  - type: input
+    id: requirements
+    attributes:
+      label: URS requirement IDs
+      description: List the exact applicable IDs or explain why this is enabling technical work.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Observable outcomes, including relevant negative and failure cases.
+    validations:
+      required: true
+  - type: textarea
+    id: design
+    attributes:
+      label: Technical design and diagrams
+      description: Link the versioned design and relevant sequence, state or database diagrams. Mark pending designs explicitly.
+      value: "Design readiness: Pending\n\nTechnical design: Pending\n\nDiagram links: Pending"
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and open decisions
+      description: Link blocking issues and record unresolved product or architecture decisions.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Implementation and verification evidence
+      description: Link pull requests, meaningful checks and current design revisions before closing.
+  - type: checkboxes
+    id: gates
+    attributes:
+      label: Delivery gates
+      options:
+        - label: Technical design and relevant diagrams reviewed; material decisions resolved
+        - label: Implementation and design agree
+        - label: Acceptance criteria verified and evidence linked
