@@ -56,7 +56,7 @@ Link blocking stories and architecture decisions. Resolve material questions bef
 
 Explain the problem in plain language, how the chosen design works, the alternatives and why they were rejected. Walk through one successful request and one failure. Identify what the learner should understand before implementing this story.
 
-State the prerequisite concepts, one practical exercise, a teach-back question and the relevant AWS, Azure or TOGAF study objective. Explain unfamiliar terms before using them. Record evidence of understanding separately from code completion.
+Explain the prerequisite concepts and unfamiliar terms. Include a practical walkthrough of the engineering decision.
 
 ## Cloud implications
 

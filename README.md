@@ -16,7 +16,6 @@ Seven GitHub milestones and eight initial design issues have been created. The s
 ## Engineering requirements
 
 Follow the [architecture learning guide](docs/architecture-learning.md) to study the design and cloud infrastructure as each story is implemented.
-The [certification roadmap](docs/certification-roadmap.md) starts from fundamentals and maps BAO lessons to AWS, Azure and TOGAF study.
 
 Go, PostgreSQL, domain driven design, CQRS, SOLID and reliable event delivery. Business policy values must be configurable and versioned where needed. Encryption is required in transit and at rest, with controlled decryption and managed keys.
 
